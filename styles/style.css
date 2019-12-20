@@ -56,7 +56,7 @@ img {
   width: 40%;
   height: 250px;
   float: center;
-  background-image: url("images/google-icon.png");
+  background-image: url("..images/google-icon.png");
   background-size: auto 350px;
   background-size: 80%;
   background-repeat: no-repeat;
