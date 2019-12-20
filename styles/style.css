@@ -53,7 +53,22 @@ img {
   border-color: aliceblue;
   margin: 0 auto;
   width: 40%;
-  height: 200px;
+  height: 250px;
+  float: center;
+  background-image: url("../images/google-icon.png");
+  background-size: auto 350px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logo-img:hover {
+  border-style: solid;
+  border-width: 0px;
+  border-color: aliceblue;
+  margin: 0 auto;
+  width: 60%;
+  height: 250px;
   float: center;
   background-image: url("../images/google-icon.png");
   background-size: auto 350px;
