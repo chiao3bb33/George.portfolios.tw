@@ -1,20 +1,19 @@
 html {
   font-size: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
-
 
 h1 {
   font-size: 60px;
   text-align: center;
 }
 
-p, li {
-  font-size: 16px;  
+p,
+li {
+  font-size: 16px;
   line-height: 1.25;
   letter-spacing: 1px;
 }
-
 
 html {
   background-color: rgb(229, 224, 192);
@@ -30,12 +29,35 @@ body {
 
 h1 {
   margin: 0;
-  padding: 20px 0;  
+  padding: 20px 0;
   color: #c2fa27;
   text-shadow: 3px 3px 1px rgba(80, 80, 80, 0.808);
+}
+
+h1:hover {
+  margin: 0;
+  padding: 20px 0;
+  color: #556d12;
+  text-shadow: 3px 3px 1px rgba(107, 25, 25, 0.808);
 }
 
 img {
   display: block;
   margin: 0 auto;
+  width: 40%;
+}
+
+.logo-img {
+  border-style: solid;
+  border-width: 0px;
+  border-color: aliceblue;
+  margin: 0 auto;
+  width: 40%;
+  height: 200px;
+  float: center;
+  background-image: url("../images/google-icon.png");
+  background-size: auto 350px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
